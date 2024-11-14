@@ -6,4 +6,9 @@ class HomeController extends BaseController
     {
         return view('pages/home');
     }
+
+    public function home()
+    {
+        return view('pages/home');
+    }
 }

@@ -10,8 +10,8 @@
     <div class="overlay">
         <h1 class="display-4">Bienvenido a Flex&Focus</h1>
         <p class="lead">Ejercicio, trabajo y alimentación saludable en un solo lugar.</p>
-        <a href="/servicios" class="btn btn-success btn-lg m-2">Nuestros Servicios</a>
-        <a href="/menu" class="btn btn-outline-light btn-lg m-2">Ver Menú</a>
+        <a href="<?php base_url(); ?>servicios" class="btn btn-success btn-lg m-2">Nuestros Servicios</a>
+        <a href="<?php base_url(); ?>menu" class="btn btn-outline-light btn-lg m-2">Ver Menú</a>
     </div>
 </div>
 
@@ -45,7 +45,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Cafetería Saludable</h5>
                     <p class="card-text">Opciones deliciosas y nutritivas para una vida sana.</p>
-                    <a href="/menu" class="btn btn-success">Ver Menú</a>
+                    <a href="<?php base_url(); ?>menu" class="btn btn-success">Ver Menú</a>
                 </div>
             </div>
         </div>
@@ -54,26 +54,29 @@
 
 <!-- Testimonios Section -->
 <section class="bg-light py-5 text-center">
-    <div class="container">
-        <h2 class="mb-4">Testimonios</h2>
+<div class="reviews my-5">
+        <h3 class="text-center mb-4">Testimonios</h3>
         <div class="row">
-            <div class="col-md-4">
-                <blockquote class="blockquote">
-                    <p class="mb-0">“¡Excelente lugar para entrenar y trabajar! Las instalaciones son de primera.”</p>
-                    <footer class="blockquote-footer">Ana Martínez</footer>
-                </blockquote>
+            <div class="col-md-4 mb-4">
+                <div class="review p-3 shadow-sm">
+                    <h5>Juan Pérez</h5>
+                    <p class="text-warning">⭐⭐⭐⭐⭐</p>
+                    <p>"El ambiente es increíble y el menú saludable me encanta. Ideal para trabajar después del ejercicio."</p>
+                </div>
             </div>
-            <div class="col-md-4">
-                <blockquote class="blockquote">
-                    <p class="mb-0">“La comida es deliciosa y saludable. Un espacio único en la ciudad.”</p>
-                    <footer class="blockquote-footer">Luis Rodríguez</footer>
-                </blockquote>
+            <div class="col-md-4 mb-4">
+                <div class="review p-3 shadow-sm">
+                    <h5>María García</h5>
+                    <p class="text-warning">⭐⭐⭐⭐</p>
+                    <p>"Excelente lugar para relajarse y cuidar de la salud. Me encantan las opciones de smoothies."</p>
+                </div>
             </div>
-            <div class="col-md-4">
-                <blockquote class="blockquote">
-                    <p class="mb-0">“Un ambiente excelente para enfocarse en el trabajo y en la salud.”</p>
-                    <footer class="blockquote-footer">María López</footer>
-                </blockquote>
+            <div class="col-md-4 mb-4">
+                <div class="review p-3 shadow-sm">
+                    <h5>Carlos Ramírez</h5>
+                    <p class="text-warning">⭐⭐⭐⭐⭐</p>
+                    <p>"Muy buen servicio y las instalaciones son modernas y limpias. Muy recomendado."</p>
+                </div>
             </div>
         </div>
     </div>
@@ -83,7 +86,7 @@
 <section class="text-center my-5">
     <h2>¿Interesado en ser parte de nuestro gimnasio cafetería?</h2>
     <p>¡Contáctanos o visítanos para más información!</p>
-    <a href="/contacto" class="btn btn-primary btn-lg">Contáctanos</a>
+    <a href="<?php base_url(); ?>contact" class="btn btn-primary btn-lg">Contáctanos</a>
 </section>
 
 <?= $this->endSection() ?>

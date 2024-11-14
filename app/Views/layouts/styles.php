@@ -41,4 +41,23 @@
     .card:hover {
         transform: scale(1.05);
     }
+    .menu-category h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    }
+    .menu-category h5 {
+        color: #333;
+    }
+    .menu-category p {
+        color: #777;
+    }
+    form .form-label {
+    font-weight: bold;
+    }
+    form .form-control {
+        border-radius: 0;
+    }
+    button[type="submit"] {
+        width: 100%;
+    }
 </style>
