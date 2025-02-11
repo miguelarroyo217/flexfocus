@@ -25,7 +25,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Gimnasio</h5>
                     <p class="card-text">Espacio con el mejor equipo para que te mantengas en forma.</p>
-                    <a href="/servicios#gym" class="btn btn-success">Ver más</a>
+                    <a href="<?php base_url(); ?>reservas" class="btn btn-success">Reservar</a>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Coworking</h5>
                     <p class="card-text">Un espacio tranquilo para trabajar con WiFi y comodidades.</p>
-                    <a href="/servicios#coworking" class="btn btn-success">Ver más</a>
+                    <a href="<?php base_url(); ?>reservas" class="btn btn-success">Reservar</a>
                 </div>
             </div>
         </div>
